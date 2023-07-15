@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.179" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login page feature" name="Login with correct credentials - Example #1.1" time="21.106">
+<system-out><![CDATA[
+Given I am on login page....................................................passed
+When I enter username "arkobiswas@gmail.com"................................passed
+And I enter password "Password@12345".......................................passed
+And I click on Sign In button...............................................passed
+Then I get the title of the page............................................passed
+And page title should be "My Account".......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
